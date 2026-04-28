@@ -1,0 +1,35 @@
+# ========================
+# Secrets & Configurations
+# ========================
+# NEVER commit your Discord Token!
+.env
+
+# ========================
+# Virtual Environments
+# ========================
+# Do not upload the massive library folder
+venv/
+env/
+
+# ========================
+# Database & Local Data
+# ========================
+# Keeps your live user data and scores private
+data/*.json
+
+# ========================
+# Python Cache
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ========================
+# IDEs & OS Files
+# ========================
+.vscode/
+.idea/
+__MACOSX/
+.DS_Store
